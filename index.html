@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MimosDaCacahBh</title>
+
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300;500;700&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap Icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!--Header-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Style CSS-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--function JS-->
+  <script type="text/javascript" src="./js/functions.js"></script>
+
+</head>
+
+<header>
+  <!--Navigation-->
+  <div class="bg-img">
+    <div class="topnav" id="myTopnav">
+      <img src="assets/img/logo-mimos.jpg" class="img-logo">
+      <a href="#products">Produtos</a>
+      <a href="#about">Sobre nós</a>
+      <a href="#contact">Contato</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+</header>
+
+<body class="main">
+  <!--Products-->
+  <h2 class="text-center">NOSSOS PRODUTOS</h2>
+
+  <div id="products">
+    <div id="myBtnContainer" class="btn-container">
+      <button class="btn" onclick="filterSelection('all')"> Todos</button>
+      <div class="btn-btn">
+        <button class="btn" onclick="filterSelection('cars')"> Mesa posta</button>
+        <button class="btn" onclick="filterSelection('nature')"> Gastronomia</button>
+      </div>
+      <button class="btn" onclick="filterSelection('people')"> Panos - Copa / Cozinha</button>
+    </div>
+
+  </div>
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column nature">
+      <div class="content">
+          <img src="assets/img/g0.jpg" alt="Gastronomia" style="width:100%">
+
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+          <img src="assets/img/g9.jpg" alt="Gastronomia" style="width:100%">
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+          <img src="assets/img/g2.jpg" alt="Gastronomia" style="width:100%">
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+          <img src="assets/img/g3.jpg" alt="Gastronomia" style="width:100%">
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+          <img src="assets/img/g10.jpg" alt="Gastronomia" style="width:100%">
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+          <img src="assets/img/g7.jpg" alt="Gastronomia" style="width:100%">
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+          <img src="assets/img/g5.jpg" alt="Gastronomia" style="width:100%">
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+          <img src="assets/img/g6.jpg" alt="Gastronomia" style="width:100%">
+      </div>
+    </div>
+    <div class="column nature">
+      <div class="content">
+          <img src="assets/img/g8.jpg" alt="Gastronomia" style="width:100%">
+      </div>
+    </div>
+
+
+    <div class="column cars">
+      <div class="content">
+          <img src="assets/img/mp1.jpg" alt="MesaPosta" style="width:100%">
+      </div>
+    </div>
+    <div class="column cars">
+      <div class="content">
+          <img src="assets/img/mp2.jpg" alt="MesaPosta" style="width:100%">
+      </div>
+    </div>
+    <div class="column cars">
+      <div class="content">
+          <img src="assets/img/mp3.jpg" alt="MesaPosta" style="width:100%">
+      </div>
+    </div>
+    <div class="column cars">
+      <div class="content">
+          <img src="assets/img/mp4.jpg" alt="MesaPosta" style="width:100%">
+      </div>
+    </div>
+    <div class="column cars">
+      <div class="content">
+          <img src="assets/img/mp5.jpg" alt="MesaPosta" style="width:100%">
+      </div>
+    </div>
+    <div class="column cars">
+      <div class="content">
+          <img src="assets/img/mp6.jpg" alt="MesaPosta" style="width:100%">
+      </div>
+    </div>
+
+
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/p1.jpg" alt="Panos" style="width:100%">
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/p2.jpg" alt="Panos" style="width:100%">
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/p3.jpg" alt="Panos" style="width:100%">
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/p4.jpg" alt="Panos" style="width:100%">
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/p5.jpg" alt="Panos" style="width:100%">
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/p6.jpg" alt="Panos" style="width:100%">
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/p7.jpg" alt="Panos" style="width:100%">
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/p8.jpg" alt="Panos" style="width:100%">
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/p9.jpg" alt="Panos" style="width:100%">
+      </div>
+    </div>
+
+
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/t1.jpg" alt="Towel" style="width:100%">
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/t2.jpg" alt="Towel" style="width:100%">
+      </div>
+    </div>
+    <div class="column people">
+      <div class="content">
+          <img src="assets/img/t3.jpg" alt="Towel" style="width:100%">
+      </div>
+    </div>
+
+    <!-- END GRID -->
+  </div>
+
+
+
+  <!--About-->
+  <div id="about" class="about">
+    <div class="text-about">
+      <h3 class="text-center">SOBRE NÓS</h3>
+      <p class="p-text">
+      <p>A @mimosdacacabh, foi criada em 2017, com objetivo de tornar prazeroso todos os momentos; </p>
+      <br>
+      <p>A cozinha saudável e de qualidade, aliado ao receber com carinho e bom gosto, pensando nos detalhes, </p>
+      <br>
+      <p>na harmonia, no sabor de encontros acolhedores e personalizados. </p>
+      <br>
+      <p>Voltada para o "olhar" do aconchego regado de mimos, desde o preparar da mesa até o fechamento de encontros,
+      </p>
+      <br>
+      <p>com uma lembrança. Tudo isso, feito artesanalmente, com cuidado do toque da mesa posta, boa culinária,
+        sorrisos,</p>
+      <br>
+      <p>boa prosa e muito carinho.</p>
+      <br>
+      <p>Nossos produtos, são um combinado de atenção, carinho, qualidade e amor.</p>
+      <br>
+      <p>Afinal, momentos são únicos e requer o melhor a quem recebe e quem é recebido.</p>
+      <br>
+      <p>Aguardamos seu contato!</p>
+      <br>
+      <p class="text-bold">Assista agora uma breve apresentação:</p>
+    </div>
+    <div class="video-about">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qXPBPOe_26U" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!--Contact-->
+  <section id="contact" class="contact">
+    <h2 class="text-center">CLIQUE AQUI</h2>
+    <div class="div-btn-contact">
+      <a type="button" class="btn-contact" href="https://linktr.ee/mimosdacacabh">ENTRAR EM CONTATO</a>
+    </div>
+  </section>
+
+  <!--Button WhatsApp-->
+  <div class="btn-float">
+    <div class="button-wpp fade">
+      <a href="https://wa.me/553196571643"><i class="bi bi-whatsapp"></i></a>
+    </div>
+  </div>
+</body>
+
+<!--Footer Page-->
+<footer>
+  <section class="footer-page">
+
+    <div class="space">
+      <div class="text-footer">
+        <h2 class="title-footer">MimosDaCacaBh</h2>
+        <div class="link-contact grow">
+          <div>
+            <a class="mx-1" href="https://www.instagram.com/mimosdacacabh/"><i class="bi bi-instagram"></i></a>
+          </div>
+          <div>
+            <a class="mx-1" href="https://wa.me/5531996571643"><i class="bi bi-whatsapp"></i></a>
+          </div>
+          <!--<div>
+            <a class="mx-1" href="https://catalogoapp.mobi/d1ef3c46-432b-410c-bd77-ab22c4141c5a"><i
+                class="bi bi-bag"></i></a>
+          </div>-->
+        </div>
+        <div class="footer-contact">
+          <ul>
+            <li>
+              <p> cassiabh3@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row-footer">
+      <p>&copy; 2022 Mimosdacacabh </p>
+    </div>
+
+  </section>
+</footer>
+
+
+
+</html>
